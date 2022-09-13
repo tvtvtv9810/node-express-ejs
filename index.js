@@ -14,7 +14,7 @@ var server = app.listen(port, function(){
 });
 
 
-// "/"へのGETリクエストでindex.ejsを表示する。拡張子（.ejs）は省略されていることに注意。
+// "/"へのGETリクエストでview/top.ejsを表示する。拡張子（.ejs）は省略されていることに注意。
 app.get("/", function(req, res, next){
     res.render("top", {});
 });

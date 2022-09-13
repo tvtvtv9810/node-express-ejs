@@ -2,11 +2,13 @@
 - Node.js ：Express.js でwebサーバ
 
 # 準備
-- libraryのインストール
+- 必要libraryのインストール（※ package.json 参照）
     1.  > npm run setup
 
 # 実行
 - > node index.js
+
+## 確認
 - http://localhost:3000
 
 ***
